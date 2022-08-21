@@ -28,7 +28,7 @@ const App = () => {
     const newFilteredMonsters = monsters.filter((monster) => {
       return monster.name.toLocaleLowerCase().includes(searchField);
     });
-    console.log(newFilteredMonsters);
+    // console.log(newFilteredMonsters);
     return newFilteredMonsters;
   }, [monsters, searchField]);
 
